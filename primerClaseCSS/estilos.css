@@ -2,7 +2,7 @@
     background-color: darkblue;
     color: aquamarine;
     text-align: center;
-
+    font-family: silkscreen;
 }
 
 #imgPerfil{
@@ -21,7 +21,29 @@ font-size: 300%;
 }
 
 #biografia{
-    text-align: center;
     width: 280px;
     height: 500px;
+}
+
+#filmografia{
+display: inline-block
+}
+
+#biografia{
+    display: inline;
+}
+
+.flexElemento{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: 15px;
+    color: black;
+    font-size: 100px;
+}
+
+.flexContenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
